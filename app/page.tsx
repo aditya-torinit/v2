@@ -20,6 +20,9 @@ export default function Home() {
         <span>
           VERCEL_URL {process?.env?.NEXT_PUBLIC_APP_URL || "not-found"}{" "}
         </span>
+         <span>
+          NEXT_PUBLIC_APP_ENV {process?.env?.NEXT_PUBLIC_APP_ENV || "not-found"}{" "}
+        </span>
         <span>
           NEXT_PUBLIC_APP_URL {process?.env?.NEXT_PUBLIC_APP_URL || "not-found"}{" "}
         </span>
