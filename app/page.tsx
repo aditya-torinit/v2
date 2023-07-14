@@ -46,6 +46,9 @@ export default function Home() {
 
         
         <span>
+          V0 {"  --- > "} {process?.env?.NEXT_PUBLIC_V0 || "not-found"}
+        </span>
+        <span>
           V1 {"  --- > "} {process?.env?.V1 || "not-found"}
         </span>
         <span>
