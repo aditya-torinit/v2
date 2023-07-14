@@ -27,6 +27,18 @@ export default function Home() {
           NEXT_PUBLIC_APP_URL {process?.env?.NEXT_PUBLIC_APP_URL || "not-found"}{" "}
         </span>
 
+      <br/>
+      <br/>
+      <br/>
+           <span>
+          NEXT_PUBLIC_VERCEL_URL {process?.env?.NEXT_PUBLIC_VERCEL_URL || "not-found"}{" "}
+        </span>
+           <span>
+          VERCEL_URL {process?.env?.VERCEL_URL || "not-found"}{" "}
+        </span>
+
+
+        
         <span>
           V1 {"  --- > "} {process?.env?.V1 || "not-found"}
         </span>
