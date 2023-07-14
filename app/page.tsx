@@ -18,6 +18,9 @@ export default function Home() {
       >
         <h1>{process?.env?.TITLE || "title"}</h1>
         <span>
+          VERCEL_ENV {process?.env?.VERCEL_ENV || "not-found"}{" "}
+        </span>
+        <span>
           VERCEL_URL {process?.env?.NEXT_PUBLIC_APP_URL || "not-found"}{" "}
         </span>
          <span>
